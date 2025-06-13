@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	ErrInvalidLogLevel = errors.New("log level not recognized, falling back to info")
+	ErrInvalidLogLevel  = errors.New("log level not recognized, falling back to info")
 	ErrInvalidLogFormat = errors.New("log format not recognized, falling back to text")
 )
 
