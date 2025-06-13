@@ -7,7 +7,7 @@ on:
 
 jobs:
   test: 
-    uses: coolapso/dry/.github/workflows/go/test.yaml@main
+    uses: coolapso/dry/.github/workflows/go_test.yaml@main
   release:
     needs: test
     permissions: 
