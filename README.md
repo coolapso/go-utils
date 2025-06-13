@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/coolapso/go-utils/blob/main/handhgopher.png" width="200" >
+  <img src="https://github.com/coolapso/go-utils/blob/main/handygopher.png" width="200" >
 </p>
 
 # GO UTILS
