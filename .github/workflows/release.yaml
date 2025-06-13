@@ -8,6 +8,8 @@ on:
 jobs:
   test: 
     uses: coolapso/dry/.github/workflows/go_test.yaml@main
+    with:
+      build: false
   release:
     needs: test
     permissions: 
