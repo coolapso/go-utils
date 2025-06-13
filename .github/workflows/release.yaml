@@ -1,0 +1,16 @@
+name: Release
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  test: 
+    uses: coolapso/dry/go/test.yaml@main
+  release:
+    needs: test
+    permissions: 
+      contents: write
+    uses: coolapso/dry/.github/workflows/release.yaml@main
+    secrets: inherit
